@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(to top right, rgb(0, 145, 255), rgb(255, 34, 0));
+    
+}
+.tete{
+    color: white;
+    display: flex;
+   justify-content: center;
+   margin: 0;
+
+
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+.rouge{
+    background-color: orangered;
+    height: 13px;
+    width: 15px;
+    transform: matrix(2, 1.1, 0, 1, 13, 27);
+}
+.bleu{
+    height: 13px;
+    width: 15px;
+    background-color: rgb(7, 151, 254);
+    transform: matrix(2, -1.1, 0, 1, -1, 44);
+}
+.BANK{
+    margin-left: 10px;
+}
+hr{
+    border-color: orangered;
+}
+.form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(56, 56, 56, 0.562);
+    border-radius: 8px;
+    text-align: center;
+    
+}
+input{
+    margin-bottom: 9px;
+    margin-top: 9px;
+    height: 33px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+
+}
+.date{
+    width: 150px;
+}
+.cvc{
+    width: 146px;
+}
+.submit{
+    
+    color: white;
+    background-color: orangered;
+    margin-top: 22px;
+    margin-bottom: px;
+    width: 250px;
+    height: 40px;
+}
+.eye-icon{
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+}
